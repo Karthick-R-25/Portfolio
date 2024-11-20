@@ -109,14 +109,7 @@ p {
   transition: transform 1s ease-in-out;
    animation: animate-cube 3s ease-in-out backwards;
 }
-@keyframes animate-cube {
-  0% {
-      transform: scale(0) rotateY(-360deg);
-  }
-  100% {
-      transform: scale(1) rotateY(0deg);
-  }
-}
+
 
 .section {
   position: absolute;
@@ -148,12 +141,7 @@ p {
 .section.contact.active{
   visibility: visible;
 }
-.section.contact.action-contact{
-  transition-delay: 1.5s;
-}
-.section.contact.action-contact.active{
-  transition-delay: 0s;
-}
+
 .home,.about{
   display: flex;
   align-items: center;
